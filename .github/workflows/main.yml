@@ -10,6 +10,6 @@ jobs:
       - uses: pixta-dev/repository-mirroring-action@v1
         with:
           target_repo_url:
-            git@github.com:msbrown47/tethys.git # cloned repo
+            git@public.git.erdc.dren.mil:cpe/tethys.git # cloned repo
           ssh_private_key:                              # <-- use 'secrets' to pass credential information.
             ${{ secrets.GITLAB_SSH_PRIVATE_KEY }} #ssh private key
