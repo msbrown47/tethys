@@ -8,7 +8,7 @@ jobs:
         with:
           fetch-depth: 0
           lfs: 'true'
-      - uses: pixta-dev/repository-mirroring-action@v1
+      - uses: pixta-dev/repository-mirroring-action@v1.1.0
         with:
           target_repo_url:
             git@public.git.erdc.dren.mil:cpe/tethys.git # cloned repo
